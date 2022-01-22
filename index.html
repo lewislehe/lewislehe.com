@@ -6,10 +6,14 @@
       src="https://kit.fontawesome.com/5dd017f05d.js"
       crossorigin="anonymous"
     ></script>
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
-    />
+    /> -->
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+    </style>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
@@ -30,6 +34,10 @@
     <style>
       body {
         background-color: #eee;
+        /* font-family: 'Outfit',sans-serif; */
+      }
+      a {
+        color: #ff4081;
       }
     </style>
   </head>
@@ -37,7 +45,7 @@
   <body>
     <div class="navbar-fixed">
       <nav>
-        <div class="nav-wrapper light-blue">
+        <div class="nav-wrapper light-blue accent-4">
           <a href="#" class="brand-logo center"> Dr. Lewis Lehe</a>
           <!-- <ul id="nav-mobile" class="right hide-on-med-and-down">
               <li><a href="sass.html">Sass</a></li>
@@ -64,9 +72,15 @@
                 transportation systems group of the Department of Civil and
                 Environmental Engineering at University of Illinois
                 Urbana-Champaign. My research is about travel in cities and
-                usually involves economics. I am from around Birmingham,
-                Alabama.
+                usually involves economics.
               </p>
+              <br />
+              <p>
+                I am from around Birmingham, AL. In my free time I like to code,
+                read and lift weights.
+              </p>
+
+              <!-- <p class="center">lehe at illinois dot edu</p> -->
             </div>
             <!-- <div class="card-action pink">
               <a href="#" class="text-white">This is a link</a>
@@ -79,8 +93,8 @@
         <div class="col s12 m8 offset-m2">
           <div class="card text-pink">
             <div class="card-content">
-              <span class="card-title">Links</span>
-              <ul style="font-size: 18px">
+              <span class="card-title"> Links</span>
+              <ul>
                 <li>
                   <a href="https://www.researchgate.net/profile/Lewis-Lehe">
                     <i class="fab fa-researchgate"></i>
@@ -154,5 +168,8 @@
         </div>
       </div>
     </div>
+    <footer>
+      <p class="center">lehe at illinois dot edu</p>
+    </footer>
   </body>
 </html>
